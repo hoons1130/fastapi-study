@@ -7,6 +7,7 @@ from alembic import context
 from models.item import Item
 from config import settings
 from database import Base
+from models.prediction_log import PredictionLog
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
